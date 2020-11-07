@@ -12,7 +12,7 @@ published: false
 
 ## 目的
 
-今更だがghq,peco,GitHubCLIが超便利だったので紹介する。
+今更ですがghq,peco,GitHubCLIが超便利だったので紹介します。
 一例としてこんな感じでターミナルからブラウザでリポジトリを開けるようにします。
 ![Demo](https://storage.googleapis.com/zenn-user-upload/f18ap7l87modek2nnbnsu6bgdrlk)
 
