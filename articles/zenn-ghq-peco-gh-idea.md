@@ -14,7 +14,7 @@ published: false
 
 今更ですがghq,peco,GitHubCLIが超便利だったので紹介します。
 一例としてこんな感じでターミナルからブラウザでリポジトリを開けるようにします。
-![Demo](https://storage.googleapis.com/zenn-user-upload/f18ap7l87modek2nnbnsu6bgdrlk)
+![](https://storage.googleapis.com/zenn-user-upload/0laslgz702xlv48ao94wiqzzowkf)
 
 ### [ghq](https://github.com/x-motemen/ghq)とは
 
@@ -86,8 +86,7 @@ $ source ~/.zshrc
 
 - Demo
 こんな感じでターミナルからブラウザでリポジトリを開くことができました！
-![](https://storage.googleapis.com/zenn-user-upload/f18ap7l87modek2nnbnsu6bgdrlk)
-
+![](https://storage.googleapis.com/zenn-user-upload/0laslgz702xlv48ao94wiqzzowkf)
 
 ### 番外編
 
