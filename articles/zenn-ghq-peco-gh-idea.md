@@ -94,14 +94,12 @@ $ source ~/.zshrc
 以下でこんなのもあるよというのも記載しています！
 
 ```bash:.zshrc
-# peco入力画面までのエイリアス -pオプションでフルパスを一覧で出力してくれます。
-alias repos='ghq list -p | peco'
 
 # ghqで管理しているリポジトリにpecoで絞って移動する。
-alias cdp='cd $(repos)'
+alias cdp='cd $(ghq list -p | peco)'
 
 # ghqで管理しているリポジトリをpecoで絞ってVSCodeで開く。
-alias vs='code $(repos)'
+alias vs='code $(ghq list -p | peco)'
 
 # カレントディレクトリのOpenになっているPRをブラウザで開く。
 alias pr='gh pr view --web'
